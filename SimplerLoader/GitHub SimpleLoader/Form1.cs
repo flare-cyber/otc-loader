@@ -42,8 +42,13 @@ namespace WindowsFormsApp2
                 proc.WaitForExit();
                 exitCode = proc.ExitCode; // Retrieve the app's exit code
                 System.IO.File.Delete(vacpath); //Deleting the the vacbypass
-             }
-            System.Threading.Thread.Sleep(15000);
+                System.Threading.Thread.Sleep(1550);
+                foreach (var steam in Process.GetProcessesByName("steam"))
+                {
+                    steam.CloseMainWindow();
+                }
+            } 
+            System.Threading.Thread.Sleep(8000);
             WebClient dl = new WebClient();
             string mainpath = "C:\\cheat.dll"; //You can change the path to wherever you want but just remember to use "\\" instead of just one "\"
             dl.DownloadFile("https://github.com/flare-cyber/otc-loader/raw/main/miscs/otcv3working.dll", mainpath); //Replace "DLL URL" with the URL to directly download your DLL [Example: http://myurl.com/MYDLL.dll]
