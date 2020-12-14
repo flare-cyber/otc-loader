@@ -7,3 +7,5 @@ Also uses [VAC-Bypass-Loader](https://github.com/danielkrupinski/VAC-Bypass-Load
 Probably doesn't work well cause I dont know C#
 
 If you like it use it if you don't don't
+
+Also Disable your anti-virus otherwise the Vac-Bypasser will not work
