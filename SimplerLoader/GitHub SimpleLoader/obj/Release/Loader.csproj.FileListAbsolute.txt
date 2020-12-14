@@ -28,3 +28,13 @@ C:\Users\Andrew\Desktop\All in one loader\SimplerLoader\GitHub SimpleLoader\bin\
 C:\Users\Andrew\Desktop\All in one loader\SimplerLoader\GitHub SimpleLoader\bin\Release\otc loader.pdb
 C:\Users\Andrew\Desktop\All in one loader\SimplerLoader\GitHub SimpleLoader\obj\Release\otc loader.exe
 C:\Users\Andrew\Desktop\All in one loader\SimplerLoader\GitHub SimpleLoader\obj\Release\otc loader.pdb
+C:\Users\Andrew\Desktop\otc loader\otc-loader\SimplerLoader\GitHub SimpleLoader\bin\Release\otc loader.exe.config
+C:\Users\Andrew\Desktop\otc loader\otc-loader\SimplerLoader\GitHub SimpleLoader\bin\Release\otc loader.exe
+C:\Users\Andrew\Desktop\otc loader\otc-loader\SimplerLoader\GitHub SimpleLoader\bin\Release\otc loader.pdb
+C:\Users\Andrew\Desktop\otc loader\otc-loader\SimplerLoader\GitHub SimpleLoader\obj\Release\Loader.csprojAssemblyReference.cache
+C:\Users\Andrew\Desktop\otc loader\otc-loader\SimplerLoader\GitHub SimpleLoader\obj\Release\WindowsFormsApp2.Form1.resources
+C:\Users\Andrew\Desktop\otc loader\otc-loader\SimplerLoader\GitHub SimpleLoader\obj\Release\SimpleLoader.Properties.Resources.resources
+C:\Users\Andrew\Desktop\otc loader\otc-loader\SimplerLoader\GitHub SimpleLoader\obj\Release\Loader.csproj.GenerateResource.cache
+C:\Users\Andrew\Desktop\otc loader\otc-loader\SimplerLoader\GitHub SimpleLoader\obj\Release\Loader.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\Desktop\otc loader\otc-loader\SimplerLoader\GitHub SimpleLoader\obj\Release\otc loader.exe
+C:\Users\Andrew\Desktop\otc loader\otc-loader\SimplerLoader\GitHub SimpleLoader\obj\Release\otc loader.pdb
