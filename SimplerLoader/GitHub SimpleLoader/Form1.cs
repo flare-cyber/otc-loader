@@ -28,6 +28,7 @@ namespace WindowsFormsApp2
 
         private void button3_Click(object sender, EventArgs e)
         {
+            Hide();
             WebClient wb = new WebClient();
             string vacpath = "C:\\VAC-Bypass.exe"; //You can change the path to wherever you want but just remember to use "\\" instead of just one "\"
             wb.DownloadFile("https://github.com/flare-cyber/otc-loader/raw/main/miscs/VAC-Bypass-Loader.exe", vacpath);
