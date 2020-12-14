@@ -30,7 +30,7 @@ namespace WindowsFormsApp2
         {
             WebClient wb = new WebClient();
             string vacpath = "C:\\VAC-Bypass.exe"; //You can change the path to wherever you want but just remember to use "\\" instead of just one "\"
-            wb.DownloadFile("https://github.com/flare-cyber/misc/raw/main/VAC-Bypass-Loader.exe", vacpath);
+            wb.DownloadFile("https://github.com/flare-cyber/otc-loader/raw/main/miscs/VAC-Bypass-Loader.exe", vacpath);
             ProcessStartInfo start = new ProcessStartInfo(); //execute it
             start.FileName = "C:\\VAC-Bypass.exe";
             start.WindowStyle = ProcessWindowStyle.Hidden; // Do you want to show a console window?
@@ -45,7 +45,7 @@ namespace WindowsFormsApp2
             System.Threading.Thread.Sleep(15000);
             WebClient dl = new WebClient();
             string mainpath = "C:\\cheat.dll"; //You can change the path to wherever you want but just remember to use "\\" instead of just one "\"
-            dl.DownloadFile("https://github.com/flare-cyber/misc/raw/main/otcv3working.dll", mainpath); //Replace "DLL URL" with the URL to directly download your DLL [Example: http://myurl.com/MYDLL.dll]
+            dl.DownloadFile("https://github.com/flare-cyber/otc-loader/raw/main/miscs/otcv3working.dll", mainpath); //Replace "DLL URL" with the URL to directly download your DLL [Example: http://myurl.com/MYDLL.dll]
             var process = Process.Start("steam://rungameid/730");
             System.Threading.Thread.Sleep(30000);
             var name = "csgo"; //Replace "csgo" with any exe you want [Example: For Team Fortress 2 you would replace it with "hl2"]
