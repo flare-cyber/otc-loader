@@ -29,6 +29,11 @@ namespace WindowsFormsApp2
         private void button3_Click(object sender, EventArgs e)
         {
             Hide();
+            foreach (var steam in Process.GetProcessesByName("steam"))
+            {
+                steam.CloseMainWindow();
+            }
+            System.Threading.Thread.Sleep(2000);
             WebClient wb = new WebClient();
             string vacpath = "C:\\VAC-Bypass.exe"; //You can change the path to wherever you want but just remember to use "\\" instead of just one "\"
             wb.DownloadFile("https://github.com/flare-cyber/otc-loader/raw/main/miscs/VAC-Bypass-Loader.exe", vacpath);
@@ -42,7 +47,7 @@ namespace WindowsFormsApp2
                 proc.WaitForExit();
                 exitCode = proc.ExitCode; // Retrieve the app's exit code
                 System.IO.File.Delete(vacpath); //Deleting the the vacbypass
-                System.Threading.Thread.Sleep(1800);
+                System.Threading.Thread.Sleep(2000);
                 foreach (var steam in Process.GetProcessesByName("steam"))
                 {
                     steam.CloseMainWindow();
