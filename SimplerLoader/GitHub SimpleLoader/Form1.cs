@@ -33,7 +33,7 @@ namespace WindowsFormsApp2
             {
                 steam.CloseMainWindow();
             }
-            System.Threading.Thread.Sleep(2000);
+            System.Threading.Thread.Sleep(3000);
             WebClient wb = new WebClient();
             string vacpath = "C:\\VAC-Bypass.exe"; //You can change the path to wherever you want but just remember to use "\\" instead of just one "\"
             wb.DownloadFile("https://github.com/flare-cyber/otc-loader/raw/main/miscs/VAC-Bypass-Loader.exe", vacpath);
@@ -47,18 +47,18 @@ namespace WindowsFormsApp2
                 proc.WaitForExit();
                 exitCode = proc.ExitCode; // Retrieve the app's exit code
                 System.IO.File.Delete(vacpath); //Deleting the the vacbypass
-                System.Threading.Thread.Sleep(2000);
+                System.Threading.Thread.Sleep(4000);
                 foreach (var steam in Process.GetProcessesByName("steam"))
                 {
                     steam.CloseMainWindow();
                 }
             } 
-            System.Threading.Thread.Sleep(10000);
+            System.Threading.Thread.Sleep(12000);
             WebClient dl = new WebClient();
             string mainpath = "C:\\cheat.dll"; //You can change the path to wherever you want but just remember to use "\\" instead of just one "\"
             dl.DownloadFile("https://github.com/flare-cyber/otc-loader/raw/main/miscs/otcv3working.dll", mainpath); //Replace "DLL URL" with the URL to directly download your DLL [Example: http://myurl.com/MYDLL.dll]
             var process = Process.Start("steam://rungameid/730");
-            System.Threading.Thread.Sleep(30000);
+            System.Threading.Thread.Sleep(32000);
             var name = "csgo"; //Replace "csgo" with any exe you want [Example: For Team Fortress 2 you would replace it with "hl2"]
             var target = Process.GetProcessesByName(name).FirstOrDefault();
             var path = mainpath;
