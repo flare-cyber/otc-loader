@@ -9,3 +9,10 @@ Probably doesn't work well cause I dont know C#
 If you like it use it if you don't don't
 
 Also Disable your anti-virus otherwise the Vac-Bypasser will not work
+
+Instructions: 
+Disable any anti virus software
+Run loader as administrator
+Click start
+Don't touch anything else csgo will boot on its own and otc will inject.\
+
